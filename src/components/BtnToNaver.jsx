@@ -1,5 +1,5 @@
 // 클래스형 컴포넌트
-import React, { Component } from "react";
+import { Component } from "react";
 
 class BtnToNaver extends Component {
   render() {
