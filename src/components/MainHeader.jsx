@@ -5,7 +5,7 @@ class MainHeader extends Component {
     this.cass = true;
   }
   render() {
-    return <h1>Hello, {this.cass ? "캬" : "맛없음"} world!</h1>;
+    return <h1>Hello, {this.cass ? "O" : "X"} world!</h1>;
   }
 }
 
