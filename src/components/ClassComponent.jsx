@@ -4,7 +4,7 @@ class ClassComponent extends Component {
   render() {
     return (
       <div>
-        <h1>Class Component 입니다~</h1>
+        <h1 className="test">Class Component 입니다~</h1>
       </div>
     );
   }

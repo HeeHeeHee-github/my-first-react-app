@@ -1,19 +1,14 @@
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
-import MainHeader from "./components/MainHeader";
-import ImgComponent from "./components/ImgComponent";
-import BtnToNaver from "./components/BtnToNaver";
-import ClassComponent from "./components/ClassComponent";
-import FunctionalComponent from "./components/FunctionalComponent";
+import Condition from "./components/Condition";
+import Emoji from "./components/\bEmoji";
+import ClassState from "./components/ClassState";
+import StateAndVariable from "./components/StateAndVariable";
 
 function App() {
   return (
     <div className="App">
-      <MainHeader />
-      <ImgComponent />
-      <BtnToNaver />
-      {/* <ClassComponent />
-      <FunctionalComponent /> */}
+      <StateAndVariable />
     </div>
   );
 }
