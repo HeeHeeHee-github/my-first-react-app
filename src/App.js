@@ -1,14 +1,24 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import Condition from "./components/Condition";
-import Emoji from "./components/\bEmoji";
-import ClassState from "./components/ClassState";
-import StateAndVariable from "./components/StateAndVariable";
+import ChangeObj from "./components/ChangeObj";
+import CustomList from "./components/CustomList";
+import CustomObj from "./components/CustomObj";
+import ExampleChangeObj from "./components/ExampleChangeObj";
 
 function App() {
   return (
     <div className="App">
-      <StateAndVariable />
+      <ExampleChangeObj />
+
+      {/* <PropsHeader text="Hello, Props World!" />
+      <PropsHeader text="Hello, Sung World!" />
+      <PropsHeader text="Hello, Hee World!" />
+      <MultiProps
+        text="Go Naver"
+        href="https://naver.com"
+        userID="hee"
+        target="_blank"
+      /> */}
     </div>
   );
 }
