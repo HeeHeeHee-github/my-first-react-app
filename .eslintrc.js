@@ -13,6 +13,6 @@ module.exports = {
   rules: {
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
-    // 'no-unused-vars': 'off',
+    'no-unused-vars': 'off',
   },
 }
