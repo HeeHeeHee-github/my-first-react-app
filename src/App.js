@@ -1,7 +1,6 @@
 import './App.css'
 import FancyBorder from './components/FancyBorder'
 function App() {
-  console.log('zzz')
   return (
     <div className="App">
       <FancyBorder color="pink">
